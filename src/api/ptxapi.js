@@ -4,8 +4,8 @@ require('dotenv').config();
 
 const getAuthorizationHeader = function () {
     
-	var AppID = process.env.REACT_APP_APP_ID;
-	var AppKey = process.env.REACT_APP_APP_KEY;
+	var AppID = 'ab0d54ef21044704bbc4ef53e9da882e';
+	var AppKey = 'jAVypHDzt_q1pEP2VlzsF7_LM1k';
     
 	var GMTString = new Date().toGMTString();
 	var ShaObj = new jsSHA('SHA-1', 'TEXT');
