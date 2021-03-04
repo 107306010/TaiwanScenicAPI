@@ -33,7 +33,7 @@ src
  ┃ ┃ ┣ County.js
  ┃ ┃ ┣ NavBar.js
  ┃ ┃ ┗ RegionSelect.js
- ┃ ┗ ScenicPage
+ ┃ ┗ ScenicPage // Reusable, generate different county page due to different props.
  ┃ ┃ ┣ ScenicItem.js
  ┃ ┃ ┣ ScenicList.js
  ┃ ┃ ┣ ScenicMedia.js
