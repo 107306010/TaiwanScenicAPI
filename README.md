@@ -32,7 +32,7 @@ src
  ┃ ┣ Nav
  ┃ ┃ ┣ County.js
  ┃ ┃ ┣ NavBar.js
- ┃ ┃ ┗ RegionSelect.js
+ ┃ ┃ ┗ RegionSelect.js //Reusable select box.
  ┃ ┗ ScenicPage // Reusable, generate different county page due to different props.
  ┃ ┃ ┣ ScenicItem.js
  ┃ ┃ ┣ ScenicList.js
@@ -44,3 +44,7 @@ src
  ┣ index.js
  ┗ Main.js
  ```
+## To be improved
+- [ ] UI
+- [ ] responsive design
+- [ ] environment variable problem
