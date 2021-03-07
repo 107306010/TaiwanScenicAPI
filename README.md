@@ -19,7 +19,7 @@ Use **react-simple-maps** and **react-tooltip** to display Taiwan map, correspon
 ```
 src
  ┣ api
- ┃ ┗ ptxapi.js
+ ┃ ┗ ptxapi.js //Some default settings in order to make api request.
  ┣ assets
  ┃ ┣ COUNTY_MOI_1090820.json
  ┃ ┗ pexels-henry-&-co-3073037.jpg
