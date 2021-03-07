@@ -25,24 +25,24 @@ src
  ┃ ┗ pexels-henry-&-co-3073037.jpg
  ┣ component
  ┃ ┣ HomePage
- ┃ ┃ ┣ BackGroundImage.js // This component is reusable, can add background easily give the image url as props to it.
- ┃ ┃ ┣ HomePage.js
+ ┃ ┃ ┣ BackGroundImage.js //This component is reusable, can add background easily by giving the image url as props to it.
+ ┃ ┃ ┣ HomePage.js 
  ┃ ┃ ┣ HomeText.js
- ┃ ┃ ┗ TaiwanMap.js
+ ┃ ┃ ┗ TaiwanMap.js //The svg pic of Taiwan .
  ┃ ┣ Nav
- ┃ ┃ ┣ County.js
+ ┃ ┃ ┣ County.js //The value and name of counties in Taiwan.
  ┃ ┃ ┣ NavBar.js
  ┃ ┃ ┗ RegionSelect.js //Reusable select box.
- ┃ ┗ ScenicPage // Reusable, generate different county page due to different props.
- ┃ ┃ ┣ ScenicItem.js
- ┃ ┃ ┣ ScenicList.js
- ┃ ┃ ┣ ScenicMedia.js
- ┃ ┃ ┣ ScenicPage.js
- ┃ ┃ ┗ TitleComponent.js
+ ┃ ┗ ScenicPage 
+ ┃ ┃ ┣ ScenicItem.js 
+ ┃ ┃ ┣ ScenicList.js 
+ ┃ ┃ ┣ ScenicMedia.js //Present the image, if not exist use default image.
+ ┃ ┃ ┣ ScenicPage.js //Reusable, generate different county page due to different props. Do the API request and infinite scroll.
+ ┃ ┃ ┗ TitleComponent.js //Set the page title
  ┣ lazyload
  ┃ ┗ lazyload.js
  ┣ index.js
- ┗ Main.js
+ ┗ Main.js //Specify the route here.
  ```
 ## To be improved
 - [ ] UI
